@@ -1,0 +1,124 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-decoration: none;
+    color: white;
+    
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+body{
+    background: #1F2227;
+}
+#page{
+    width: 100%;
+    background: rgb(32, 35, 39);
+}
+#Principal{
+    width: 100%;
+    height: 60%;
+}
+#Principal img{
+    width: 100%;
+    height: 400px;
+}
+#menu{
+    width: 30%;
+    display: block;
+    float: left;
+    /*border: 0.5px solid #444;*/
+}
+h1{
+    color: #444;
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+}
+ul li{
+    display:block;
+}
+ul li a{
+    transition: all 1.5s;
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #ccc;
+    display:block;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10%;
+    text-decoration: none;
+    color: #444 !important;
+}
+ul li a:hover{
+    width: 150px;
+    transition: 1s;
+    font-weight: bold;
+    opacity:0.5;
+}
+ul li:first-child a{
+    color: purple;
+   
+}
+ul li:last-child a{
+    color:orange;
+}
+ul li:nth-child(2) a{
+    color:blue;
+}
+ul li:nth-child(3) a{
+    color:red;
+}
+
+#mienlace:link{
+    color:red;
+}
+#mienlace:visited{
+    color: rgb(0, 20, 54);
+}
+#mienlace:active{
+    color: green;   
+}
+#box1{
+    padding-top: 30px;
+    width: 60%;
+    padding-left: 90px;
+    display: block;
+    float: left;
+    /*border: 0.5px solid #444;*/
+    
+}
+.title{
+    width: 100%;
+    height: 50px;
+    text-transform:uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+.title:hover{
+    transition:1.3s;
+    
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.contenido{
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 20px;
+}
+input[type="text"]{
+    padding: 10px;
+    opacity: 0.8;
+}
+input[type="text"]:focus{
+    border: 2px solid red;
+}
+footer{
+    width: 100%;
+    text-align: center;
+    color: #ccc;
+    background: rgb(31, 32, 34);
+}
